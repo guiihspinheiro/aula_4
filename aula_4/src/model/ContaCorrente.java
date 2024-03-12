@@ -5,7 +5,7 @@ public class ContaCorrente extends Conta {
 	private double valorTaxa;
 	
 
-	ContaCorrente(String Email, double ValorTaxa) {
+	public ContaCorrente(String Email, double ValorTaxa) {
 		super(Email);
 		this.valorTaxa = ValorTaxa;
 		// TODO Auto-generated constructor stub
